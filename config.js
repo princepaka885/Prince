@@ -16,7 +16,7 @@ const config = {
   },
   
   // General settings
-  commandPrefix: process.env.BOT_PREFIX || '!',
+  commandPrefix: process.env.BOT_PREFIX || '.',
   
   // Logging settings
   logging: {
@@ -43,8 +43,8 @@ const config = {
     
     // Antilink settings
     antilink: {
-      enabled: false,
-      autoKick: false,
+      enabled: true,
+      autoKick: true,
       warnings: true,
       maxWarnings: 3,
       whitelist: ['whatsapp.com', 'example.com']
